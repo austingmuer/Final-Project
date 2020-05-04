@@ -15,6 +15,10 @@
 		E82E7EF8245F4F430075D7BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82E7EF6245F4F430075D7BA /* LaunchScreen.storyboard */; };
 		E82E7F03245F4F430075D7BA /* Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82E7F02245F4F430075D7BA /* Final_ProjectTests.swift */; };
 		E82E7F0E245F4F430075D7BA /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82E7F0D245F4F430075D7BA /* Final_ProjectUITests.swift */; };
+		E82E7F1E245F697D0075D7BA /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82E7F1D245F697D0075D7BA /* ReceiptViewController.swift */; };
+		E82E7F20245F69990075D7BA /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82E7F1F245F69990075D7BA /* ReviewViewController.swift */; };
+		E82E7F24245F6D7D0075D7BA /* ToppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82E7F23245F6D7D0075D7BA /* ToppingViewController.swift */; };
+		E82E7F272460423F0075D7BA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82E7F262460423F0075D7BA /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		E82E7F09245F4F430075D7BA /* Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82E7F0D245F4F430075D7BA /* Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		E82E7F0F245F4F430075D7BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82E7F1D245F697D0075D7BA /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
+		E82E7F1F245F69990075D7BA /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		E82E7F23245F6D7D0075D7BA /* ToppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToppingViewController.swift; sourceTree = "<group>"; };
+		E82E7F262460423F0075D7BA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82E7F272460423F0075D7BA /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +92,7 @@
 				E82E7F01245F4F430075D7BA /* Final ProjectTests */,
 				E82E7F0C245F4F430075D7BA /* Final ProjectUITests */,
 				E82E7EE9245F4F400075D7BA /* Products */,
+				E82E7F252460423F0075D7BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +113,9 @@
 				E82E7EED245F4F400075D7BA /* SceneDelegate.swift */,
 				E82E7EEF245F4F400075D7BA /* ViewController.swift */,
 				E82E7EF1245F4F400075D7BA /* Main.storyboard */,
+				E82E7F23245F6D7D0075D7BA /* ToppingViewController.swift */,
+				E82E7F1F245F69990075D7BA /* ReviewViewController.swift */,
+				E82E7F1D245F697D0075D7BA /* ReceiptViewController.swift */,
 				E82E7EF4245F4F430075D7BA /* Assets.xcassets */,
 				E82E7EF6245F4F430075D7BA /* LaunchScreen.storyboard */,
 				E82E7EF9245F4F430075D7BA /* Info.plist */,
@@ -126,6 +139,14 @@
 				E82E7F0F245F4F430075D7BA /* Info.plist */,
 			);
 			path = "Final ProjectUITests";
+			sourceTree = "<group>";
+		};
+		E82E7F252460423F0075D7BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E82E7F262460423F0075D7BA /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +282,9 @@
 			files = (
 				E82E7EF0245F4F400075D7BA /* ViewController.swift in Sources */,
 				E82E7EEC245F4F400075D7BA /* AppDelegate.swift in Sources */,
+				E82E7F20245F69990075D7BA /* ReviewViewController.swift in Sources */,
+				E82E7F1E245F697D0075D7BA /* ReceiptViewController.swift in Sources */,
+				E82E7F24245F6D7D0075D7BA /* ToppingViewController.swift in Sources */,
 				E82E7EEE245F4F400075D7BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
